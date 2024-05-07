@@ -1,0 +1,77 @@
+body {
+  margin-top: 5%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 2rem;
+  text-align: center;
+}
+.btn {
+  border: none;
+  padding: 8px 15px;
+  margin: 0px 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+}
+.btn:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+#openimg-btn {
+  background-color: hsl(122, 39%, 49%);
+  transition: background-color 0.3s ease;
+}
+#openimg-btn:hover {
+  background-color: hsl(122, 39%, 39%);
+}
+
+#saveimg-btn {
+  background-color: hsl(4, 90%, 58%);
+  transition: background-color 0.3s ease;
+}
+#saveimg-btn:hover {
+  background-color: hsl(4, 90%, 48%);
+}
+
+#opencam-btn {
+  background-color: hsl(195, 100%, 46%);
+  transition: background-color 0.3s ease;
+}
+#opencam-btn:hover {
+  background-color: hsl(195, 100%, 36%);
+}
+#load-btn {
+  background-color: hsl(0, 0%, 0%);
+  transition: background-color 0.3s ease;
+}
+#load-btn:hover {
+  background-color: hsl(0, 0%, 12%);
+}
+#info {
+  font-weight: bold;
+}
+#model-info {
+  background-color: black;
+  color: lightgreen;
+  border-radius: 10px;
+  padding: 0px 5px;
+}
+#info-container p {
+  margin: 0px;
+}
+
+#objdetect-canvas {
+  max-height: 640px;
+  border-radius: 5px;
+  border: 1px solid #c6c6c6;
+  background-color: #f5f5f5;
+}
